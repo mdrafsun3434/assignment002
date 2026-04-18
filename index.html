@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assignment-002</title>
+    <title>Assignment 002</title>
 
     
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -27,9 +27,10 @@
       }
     </style>
   </head>
+ 
+  <body class="bg-[#1A0B2E] ">
 
- <!-- header start -->
-     <header class="bg-[#1A0B2E] sticky top-0 z-50 border-b border-white/10">
+    <header class="bg-[#1A0B2E] sticky top-0 z-50 border-b border-white/10">
       <div
         class="container mx-auto flex justify-between items-center py-5 px-4 md:px-10 lg:px-20">
         <h2 class="text-white text-2xl font-bold">Tech
@@ -49,8 +50,76 @@
           </ul>
         </nav>
        <button class="font-semibold text-white bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-full py-2 px-6 hover:opacity-90 transition hidden md:flex items-center gap-2">
-  Subscribe <i class="fa-solid fa-arrow-right"></i>
-</button>
+     Subscribe <i class="fa-solid fa-arrow-right"></i>
+    </button>
         <img src="./assets/hamburger-menu.png " alt="" class="md:hidden">
       </div>
     </header>
+
+
+       <main>
+      <div
+        class="container mx-auto mt-1 px-4 py-20 bg-no-repeat bg-center bg-cover"
+        style="background-image: url(./assets/hero-bg.png)">
+        <div class="flex flex-col items-center">
+          <div class="relative flex justify-center items-center mb-8">
+            <img  src="./assets/hero-circle.png"alt=""class=" lg:w-80  "/>
+            <img src="./assets/microphone.png" alt="" class="absolute" />
+            <span class="p-2 bg-green-400 rounded-full absolute top-5 right-3 text-white px-4 animate-bounce ">new</span>
+          </div>
+          <h1 class="font-bold text-white text-5xl md:text-7xl text-center mb-4"> TechWave</h1>
+          <p class="font-medium text-white text-[16px]  text-center max-w-2xl mb-10">
+            Your daily dose of tech insights, productivity hacks, and personal growth
+          </p>
+          <div class="flex flex-col md:flex-row gap-5">
+            <button class="font-semibold text-white bg-gradient-to-r from-[#F7E93F] via-[#ec04a7] to-[#9100F8] rounded-full py-3 px-8 flex items-center gap-2 justify-center"><i class="fa-brands fa-spotify text-xl"></i> Listen on Spotify</button>
+            <button
+              class="text-[#00FF88] font-semibold border-2 border-[#00FF88] rounded-full py-3 px-8 flex items-center gap-2 justify-center hover:bg-[#6e1f23] hover:text-[#1A0B2E] transition"><i class="fa-regular fa-envelope"></i> Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+      
+       <section class="container mx-auto bg-[#1A0B2E] text-center py-20 px-4">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="font-bold text-4xl md:text-5xl text-white mb-6">About the Podcast</h2>
+
+          <p class="font-medium text-white leading-relaxed opacity-90">
+            TechWave is your go-to podcast for staying ahead in the fast-paced
+            world of technology. <br> We break down complex topics into digestible
+            insights, explore productivity strategies that actually work, <br> and
+            share stories of personal growth from industry leaders.
+            <br><br>
+            Join thousands of young professionals and tech enthusiasts who start
+            their day with TechWave.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-20">
+          <div>
+            <h3 class="font-black text-5xl text-[#00FF88]">
+              150K+
+            </h3>
+            <p class="font-semibold text-white text-[16px] mt-2">Monthly Listeners</p>
+          </div>
+          <div>
+            <h3 class="font-black text-5xl text-[#00FF88]">
+              200+
+            </h3>
+            <p class="font-semibold text-white text-[16px] mt-2">Episodes Published</p>
+          </div>
+          <div>
+            <h3 class="font-black text-5xl  text-[#00FF88]">4.9★</h3>
+            <p class="font-semibold text-white text-[16px] mt-2">Average Rating</p>
+          </div>
+          <div>
+            <h3 class="font-black text-5xl  text-[#00FF88]">50+</h3>
+            <p class="font-semibold text-white text-[16px] mt-2">Industry Experts</p>
+          </div>
+        </div>
+      </section>
+
+    </body>
+</html>
+
+    
